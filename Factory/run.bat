@@ -17,8 +17,6 @@ echo ## Running CLASS files ##
 java -cp classes App
 echo.
 
-
-
 echo ## Creating JAR file ##
 jar cfve app.jar App -C classes .
 echo.
@@ -28,5 +26,4 @@ java -cp classes -jar app.jar
 echo.
 
 del app.jar
-
 rmdir /S /Q classes
