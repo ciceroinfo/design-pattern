@@ -5,8 +5,9 @@ if exist app.jar del app.jar
 
 for %%a in (.) do set currentfolder=%%~na
 echo Project %currentfolder%
-echo Design Pattern - Factory Pattern
-echo In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+echo.
+type README.txt
+echo.
 echo.
 
 echo ## Compiling JAVA files ##
